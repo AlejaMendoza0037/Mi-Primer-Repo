@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos</title>
+    <link rel="stylesheet" href="CSS/Estilos1.css">
+    <!-- CSS only -->
+    <!--este link que lo saco del boosttrap, copio el link, que es una hoja de estilos, esto esta en la nube-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>Datos</h1>
+    <br><br>
+    <!--crear formilario-->
+    <br><br><br>
+    <!--el # no nos lleva a ningun lado-->
+    <section class="form-resgistrarse">
+
+    <form action="#">
+        <!--<div class="form-group row">  div permite dividir la pagina, o crear bloques-->
+            <!--<label for="staticEmail" class="col-sm-2 col-form-label">Nombres</label>
+                <div class="col-sm-10">-->
+        <label for="nombres">Nombres</label>           
+        <input type="text" class="controles" placeholder="Nombres" name="nombres" id="nombres" required> 
+               <!--aca me cambia hasta el boton-->
+        
+        
+        <!-- es el jTextField en java jframe-->
+        <!--en el laber el for coloco combres o el campo que quiera y con el atributo name- id para que con solo darle click, ya 
+        me coloque el cursor en el jtextfiedl-->
+        <br><br>
+
+        <label for="documento"> Documento de identidad</label>
+        <!--este for hace referencia a que me direcccione a  alguna lugar --en este caso al input le coloco el atributo name y lo
+        llamamos de la misma forma y junto le ponemos el id siempre los dos atributos-->
+        <input type="number" class="controles" placeholder="documento" name="documento" id="documento" required>
+            <!--este name se va a utilizar mucho para enviar datos y trabajar con una base de datos y almacenarlos en una variable
+            id-- el identificador, permite que cuando le de click al label inmediatamente se activa para poder trabajar
+        ---placeholder es para la imagen en el jtextfield-->      
+        <br><br>
+
+        <label for="fecha">fecha de nacimento</label>
+        <input type="date" class="controles"name="fecha" id="fecha"required>
+        <br><br>
+        <label for="correo">Email</label>
+        <input type="email" class="controles" placeholder="Email" name="correo" id="correo"required>
+        <br><br>
+        <!--para hacer un select de opciones--- cuando de despliega-->
+        <label for="horario">Horario de clases</label><!--se recomienda dejar vacio para no condicionar al usuario-->
+        <select name="horario" id="horario">       
+                <option value="">Selecione</option> 
+                <option value="Mañana">Mañana</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noche">Noche</option>
+                <option value="findesemana">fin de semana</option> <!--lo dejo en forma pegada por que se comporta como variable-->
+            </select> 
+        <br><br>
+        <!--radio button---solo parqa elejir uno-->
+        <label for="sexo">Sexo</label><br>
+        <input type="radio"name="sexo" id="sexo">Mujer  <br>
+        <!-- para elegir varias opciones-->
+        <br><br>
+        <label for="actividades">Actividades</label> <br><br>
+        <input type="checkbox" name="actividades" id="actividades"> Lectura <br>
+        <input type="checkbox" name="actividades" id="actividades">Futbol <br>
+        <input type="checkbox" name="actividades" id="actividades"> baloncesto <br>
+        <input type="checkbox" name="actividades" id="actividades"> viajar <br>
+        <input type="checkbox" name="actividades" id="actividades"> ver tv <br>
+        <br><br><br>
+
+        <!--botones____ hay dos opciones-->
+
+        <button type="submit" >enviar</button>
+        <button type="reset" > Borrar </button> <!-- borra todo los de los formularios reinicia todo el formulario-->
+        <!--submit-- osea de enviar
+        <input type="reset" value="borrar">-->
+
+        <!--class="btn btn-primary para el color de los botones-->
+
+
+        <!--required para hacer una opcion o un campo obligatorio--- nos sale mensaje de que debe de llenar un espaciio->-->
+
+
+
+
+    </form>
+    </section>
+<br><br><br>
+
+    <a href="Index.html" class="hipervinculo3"><img src="Imagenes/flecha.jpg" alt=""class="imagen1"></a><!--hipervinculo-->
+    <!--aca, con la configuracion de la imagen en css, debo relacionar la imagen een el class-->
+    <br>enlace
+    <br><br>
+
+    <!-- creacion de formulario-->
+
+    
+</body>
+</html>

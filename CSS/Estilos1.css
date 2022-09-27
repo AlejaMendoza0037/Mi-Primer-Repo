@@ -1,0 +1,76 @@
+/*a
+{ 
+  text-decoration: none; /* todo lo que sea la etiqueta a o hipervinculos no va a llevar la raya 
+  color: brown;
+}
+
+/* que cada hipervinculo se vea diferente*/
+
+.hipervinculo1
+{ 
+  text-decoration: none; /* todo lo que sea la etiqueta a o hipervinculos no va a llevar la raya*/  
+  color: brown;
+}
+
+.hipervinculo2
+{ 
+  text-decoration: none; /* todo lo que sea la etiqueta a o hipervinculos no va a llevar la raya*/  
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /* tipo de letra*/
+}
+.hipervinculo3
+{ 
+  text-decoration: none; /* todo lo que sea la etiqueta a o hipervinculos no va a llevar la raya*/  
+  color:#996f66;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra*/
+    
+}
+/*para editar imagen*/
+.imagen1
+{
+    height: 100px;
+    width: 100px;
+}
+/*para editar tabla*/
+table,td,tr,th
+{
+    border: red 1px solid;/*el tamaño del borde*/
+    border-collapse: separate;/*paraseparar el borde*/
+    background-color: burlywood;/*para que me de el color a la tabla*/
+}
+.centro
+{
+  text-align: center; /* para centrar */
+}
+/*personalizacion del formilario*/
+* /*norma para todo el documento*/
+{
+  margin: 0;
+  padding: 0 ;/*margen dentro*/
+  box-sizing: border-box; /*borde tipo caja*/
+}
+.form-resgistrarse /*para que coja los cambios debo de importar la clase*/
+{
+  width: 800px; /* el ancho*/
+  background-color:rgb(133, 36, 55) ;/* color de fondo*/
+  padding: 30px;/* margen interna-- */ 
+  margin: auto;/*margen general*/
+  margin-top: 100px;/*margen superior*/
+  border-radius: 4px;/*el norde sea redondito*/
+  font-family:Arial, Helvetica, sans-serif ;/*tipo de letra*/
+  color: azure;
+  box-shadow:7px 13px 37px #110907 ;/*la sombra de esa caja*/
+
+}
+
+/*para arreglar los cuadritos en cada input*/
+.controles
+{
+  width: 100%;
+  background: #242424;
+  padding: 10px; 
+  border-radius: 4px;
+  font-size: 18px;/*tamaño de letra*/
+  color: cornsilk;
+}
+
